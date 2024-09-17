@@ -31,7 +31,7 @@ public class Solution1 {
         int[] answer = new int[length + 1];
 
         // 신규 배열에 기존 값 다시 넣기
-        for (int i = 0; i < num_list.length; i++) {
+        for (int i = 0; i < length; i++) {
             answer[i] = num_list[i];
         }
 
